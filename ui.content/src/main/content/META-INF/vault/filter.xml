@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ccui" mode="merge"/>
+    <filter root="/content/ccui" mode="merge"/>
+    <filter root="/content/dam/ccui" mode="merge">
+        <exclude pattern="/content/dam/ccui(/.*)?"/>
+        <include pattern="/content/dam/ccui/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/ccui/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ccui" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ccui/clientlibs"/>
+    <filter root="/apps/ccui/components"/>
+    <filter root="/apps/ccui/i18n"/>
+</workspaceFilter>

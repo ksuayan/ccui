@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/ccui",
+        "create path (nt:unstructured) /content/dam/ccui/jcr:content",
+        "set properties on /content/dam/ccui/jcr:content\n  set cq:conf{String} to /conf/ccui\n  set jcr:title{String} to \"AEM Core Components UI Demo\"\nend"
+    ]
+}
