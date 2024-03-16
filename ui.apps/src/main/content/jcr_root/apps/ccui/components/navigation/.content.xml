@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Navigation"
     sling:resourceSuperType="core/wcm/components/navigation/v2/navigation"
-    componentGroup="AEM Core Components UI Demo - Structure"/>
+    componentGroup="Kukui Core Components - Structure"/>

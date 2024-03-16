@@ -7,7 +7,7 @@
         cq:redirectTarget="/content/ccui/us/en"
         cq:template="/conf/ccui/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
-        jcr:title="AEM Core Components UI Demo"
+        jcr:title="Kukui Core Components"
         sling:configRef="/conf/ccui"
         sling:redirect="{Boolean}true"
         sling:redirectStatus="{Long}302"

@@ -8,4 +8,10 @@
     </filter>
     <filter root="/content/dam/ccui/asset.jpg" mode="merge"/>
     <filter root="/content/experience-fragments/ccui" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/ccui" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/ccui" mode="merge"/>
+    <filter root="/content/dam/ccui/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/ccui/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/ccui/wknd_logo.png" mode="merge"/>
+    <filter root="/content/dam/ccui/af_model_sample.json" mode="merge"/>
 </workspaceFilter>

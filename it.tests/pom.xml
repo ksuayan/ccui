@@ -25,8 +25,8 @@
     </parent>
 
     <artifactId>ccui.it.tests</artifactId>
-    <name>AEM Core Components UI Demo - Integration Tests</name>
-    <description>Integration Tests for AEM Core Components UI Demo</description>
+    <name>Kukui Core Components - Integration Tests</name>
+    <description>Integration Tests for Kukui Core Components</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -47,8 +47,8 @@
         </dependency>
         <dependency>
             <groupId>com.adobe.cq</groupId>
-            <artifactId>aem-cloud-testing-clients</artifactId>
-            <version>1.2.3</version>
+            <artifactId>cq-testing-clients-65</artifactId>
+            <version>1.1.1</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>

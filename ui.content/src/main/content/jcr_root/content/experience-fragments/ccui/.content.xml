@@ -4,7 +4,7 @@
     cq:allowedTemplates="[/conf/ccui/settings/wcm/templates/(?!page-).*]"
     cq:conf="/conf/ccui"
     jcr:primaryType="sling:OrderedFolder"
-    jcr:title="AEM Core Components UI Demo Fragments"
+    jcr:title="Kukui Core Components Fragments"
     sling:configRef="/conf/ccui">
     <us/>
 </jcr:root>

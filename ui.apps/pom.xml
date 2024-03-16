@@ -32,8 +32,8 @@
     <!-- ====================================================================== -->
     <artifactId>ccui.ui.apps</artifactId>
     <packaging>content-package</packaging>
-    <name>AEM Core Components UI Demo - UI apps</name>
-    <description>UI apps package for AEM Core Components UI Demo</description>
+    <name>Kukui Core Components - UI apps</name>
+    <description>UI apps package for Kukui Core Components</description>
 
     <!-- ====================================================================== -->
     <!-- B U I L D   D E F I N I T I O N                                        -->
@@ -61,6 +61,14 @@
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                     <dependencies>
+                        <dependency>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.content</artifactId>
+                        </dependency>
+                        <dependency>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.wcm.components.config</artifactId>
+                        </dependency>
                     </dependencies>
                 </configuration>
             </plugin>
@@ -119,6 +127,12 @@
             <type>zip</type>
         </dependency>
 
+      <dependency>
+        <groupId>com.suayan</groupId>
+        <artifactId>ccui.ui.frontend.react.forms.af</artifactId>
+        <version>${project.version}</version>
+        <type>zip</type>
+      </dependency>
 
         <dependency>
             <groupId>com.suayan</groupId>
@@ -128,10 +142,65 @@
         </dependency>
 
         <dependency>
-            <groupId>com.adobe.aem</groupId>
-            <artifactId>aem-sdk-api</artifactId>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.core</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.content</artifactId>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.wcm.components.config</artifactId>
+            <type>zip</type>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>uber-jar</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.jcr</groupId>
+            <artifactId>jcr</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.day.cq.wcm</groupId>
+            <artifactId>cq-wcm-taglib</artifactId>
+        </dependency>
+
+        <!-- AEM Forms Dependencies -->
+            <dependency>
+        <groupId>com.adobe.aemfd</groupId>
+        <artifactId>aemfd-client-sdk</artifactId>
+      </dependency>
+              <dependency>
+          <groupId>com.adobe.aem</groupId>
+          <artifactId>core-forms-components-apps</artifactId>
+          <type>zip</type>
+        </dependency>
+        <dependency>
+          <groupId>com.adobe.aem</groupId>
+          <artifactId>core-forms-components-core</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>com.adobe.aem</groupId>
+          <artifactId>core-forms-components-af-apps</artifactId>
+          <type>zip</type>
+        </dependency>
+        <dependency>
+          <groupId>com.adobe.aem</groupId>
+          <artifactId>core-forms-components-af-core</artifactId>
+        </dependency>
         <!-- HTL dependencies needed for the HTL Maven Plugin source code generation -->
         <dependency>
             <groupId>org.apache.sling</groupId>

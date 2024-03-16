@@ -3,4 +3,6 @@
     <filter root="/apps/ccui/clientlibs"/>
     <filter root="/apps/ccui/components"/>
     <filter root="/apps/ccui/i18n"/>
+
+    <filter root="/apps/sling" />
 </workspaceFilter>

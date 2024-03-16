@@ -4,7 +4,7 @@
     <jcr:content
         cq:conf="/conf/ccui"
         jcr:primaryType="nt:unstructured"
-        jcr:title="AEM Core Components UI Demo">
+        jcr:title="Kukui Core Components">
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>

@@ -33,7 +33,7 @@
     <!-- ====================================================================== -->
     <artifactId>ccui.ui.frontend</artifactId>
     <packaging>pom</packaging>
-    <name>AEM Core Components UI Demo - UI Frontend</name>
+    <name>Kukui Core Components - UI Frontend</name>
 
 
     <!-- ====================================================================== -->

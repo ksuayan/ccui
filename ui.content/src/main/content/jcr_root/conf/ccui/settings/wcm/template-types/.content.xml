@@ -5,4 +5,6 @@
     <xf/>
     <rep:policy/>
     <page/>
+        <af-page-v2/>
+    <afv2-fragment-page/>
     </jcr:root>

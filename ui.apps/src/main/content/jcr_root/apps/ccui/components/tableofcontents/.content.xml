@@ -4,4 +4,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Table of Contents"
     sling:resourceSuperType="core/wcm/components/tableofcontents/v1/tableofcontents"
-    componentGroup="AEM Core Components UI Demo - Content"/>
+    componentGroup="Kukui Core Components - Content"/>

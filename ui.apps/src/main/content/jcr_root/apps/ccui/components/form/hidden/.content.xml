@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Form Hidden"
     sling:resourceSuperType="core/wcm/components/form/hidden/v2/hidden"
-    componentGroup="AEM Core Components UI Demo - Form"/>
+    componentGroup="Kukui Core Components - Form"/>

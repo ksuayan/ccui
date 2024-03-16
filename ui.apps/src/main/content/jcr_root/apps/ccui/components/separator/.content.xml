@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Separator"
     sling:resourceSuperType="core/wcm/components/separator/v1/separator"
-    componentGroup="AEM Core Components UI Demo - Content"/>
+    componentGroup="Kukui Core Components - Content"/>

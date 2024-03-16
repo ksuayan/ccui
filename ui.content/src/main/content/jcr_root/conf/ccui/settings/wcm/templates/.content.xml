@@ -4,5 +4,6 @@
     jcr:primaryType="cq:Page">
     <page-content/>
     <xf-web-variation/>
+    <blank-af-v2/>
     <rep:policy/>
 </jcr:root>
