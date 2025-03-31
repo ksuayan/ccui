@@ -1,0 +1,13 @@
+{
+    "query": "SELECT * from [nt:base] AS s WHERE ISDESCENDANTNODE([/content/ccui/us]) AND NAME() = 'image' AND [fileReference] like '%.png']",
+    "language" : "JCR-SQL2",
+    "rules": [
+        {"type":"path",  "targetProperty": "path"},
+        {
+         "type":"property",
+         "targetProperty": "fileReference",
+         "sourceSubpath":  "",
+         "sourceProperty":  "fileReference"
+        }
+     ]
+}

@@ -1,0 +1,10 @@
+{
+    "query": "/jcr:root/content/ccui/us//element(*)[@sling:resourceType='ccui/components/text']",
+    "language" : "xpath",
+    "recurse": false,
+    "rules": [
+        {"type":"name", "targetProperty": "name"},
+        {"type":"title", "targetProperty": "title"},
+        {"type":"path", "targetProperty": "path"}
+     ]
+}

@@ -41,11 +41,17 @@
                         <goals>
                             <goal>bnd-process</goal>
                         </goals>
+
                         <configuration>
-                            <bnd><![CDATA[
-Import-Package: javax.annotation;version=0.0.0,*
-                                ]]></bnd>
-                        </configuration>
+                             <bnd><![CDATA[
+Import-Package: javax.annotation;version=0.0.0,\
+com.fasterxml.jackson.dataformat.csv;version="[2.13.5,3.0.0)",\
+com.fasterxml.jackson.core;version="[2.13.5,3.0.0)",\
+com.fasterxml.jackson.databind;version="[2.13.5,3.0.0)",\
+*
+]]></bnd>
+                         </configuration>
+
                     </execution>
                 </executions>
             </plugin>
@@ -222,5 +228,27 @@ Import-Package: javax.annotation;version=0.0.0,*
             <version>1.4.4</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-csv</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
     </dependencies>
 </project>

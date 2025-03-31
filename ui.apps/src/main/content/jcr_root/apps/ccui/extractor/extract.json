@@ -1,0 +1,21 @@
+{
+    "query": "SELECT * FROM [cq:Page] AS s WHERE ISCHILDNODE([/content/ccui/us])",
+    "language" : "JCR-SQL2",
+    "rules": [
+        {"type":"title", "targetProperty": "title"},
+        {"type":"name",  "targetProperty": "name"},
+        {"type":"path",  "targetProperty": "path"},
+        {
+         "type":"property", 
+         "targetProperty": "replication", 
+         "sourceSubpath":  "/jcr:content",
+         "sourceProperty":  "cq:lastReplicationAction"
+        },
+        {
+         "type":"property", 
+         "targetProperty": "keywords", 
+         "sourceSubpath":  "/jcr:content",
+         "sourceProperty":  "metakeywords"
+        }
+     ]
+}

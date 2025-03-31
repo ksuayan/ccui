@@ -157,7 +157,12 @@
                         <type>zip</type>
                         <target>/apps/ccui-vendor-packages/application/install</target>
                       </embedded>
-                                          </embeddeds>
+                      <embedded>
+                        <groupId>com.fasterxml.jackson.dataformat</groupId>
+                        <artifactId>jackson-dataformat-csv</artifactId>
+                        <target>/apps/ccui-vendor-packages/application/install</target>
+                      </embedded>
+                    </embeddeds>
                 </configuration>
             </plugin>
             <plugin>
@@ -328,5 +333,26 @@
             <artifactId>core.wcm.components.examples.ui.content</artifactId>
             <type>zip</type>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-csv</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
     </dependencies>
 </project>

@@ -1,0 +1,9 @@
+{
+  "query": "/jcr:root/content/dam/cf-demo//element(*,dam:Asset)",
+  "language" : "xpath",
+  "recurse": false,
+  "rules": [
+      {"type":"name",  "targetProperty": "name"},
+      {"type":"path",  "targetProperty": "path"}
+   ]
+}

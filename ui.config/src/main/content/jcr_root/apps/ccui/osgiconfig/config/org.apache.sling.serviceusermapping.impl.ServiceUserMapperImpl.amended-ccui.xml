@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" 
+xmlns:jcr="http://www.jcp.org/jcr/1.0" 
+jcr:primaryType="sling:OsgiConfig" 
+service.ranking="20" 
+user.mapping="[
+ccui.core:ccui-root-read-user=ccui-root-read-user,
+com.suayan.core:ccui-root-read-user=ccui-root-read-user,
+org.apache.sling.api:ccui-root-read-user=ccui-root-read-user,
+ccui.core:ccui-content-user=ccui-content-user,
+com.suayan.core:ccui-content-user=ccui-content-user,
+org.apache.sling.api:ccui-content-user=ccui-content-user]"/>
